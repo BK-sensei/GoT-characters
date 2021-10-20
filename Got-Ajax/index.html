@@ -14,18 +14,22 @@
 <body>
 
   <!-- TITRE -->
-    <h1>Game of Thrones</h1>
+    <header>
+      <h1>Game of Thrones</h1>
+    </header>
 
   <!-- FORMULAIRE DE RECHERCHE -->
-    <form id="search" class="input-group rounded">
-        <input type="search" class="form-control rounded" placeholder="Search a character" aria-label="Search"
-        aria-describedby="search-addon" />
-        <button type="submit" class="btn rounded btn-outline-secondary">Search</button>
-    </form>
+    <section class="d-flex flex-row-reverse">
+      <form id="search" class="input-group rounded">
+          <input type="search" id="searchGot" class="form-control rounded" placeholder="Search a character" aria-label="Search"
+          aria-describedby="search-addon" />
+          <button type="submit" class="btn rounded btn-outline-secondary">Search</button>
+      </form>
+    </section>
   
   <!-- PERSONNAGES DE GOT -->
     <div class="container">
-      <div id="perso" class="row"></div>
+      <div id="perso" class="row">
     </div>
     
     <script src="jquery.js"></script>
